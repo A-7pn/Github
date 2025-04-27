@@ -1,0 +1,96 @@
+{
+ "outbounds": [
+  {
+   "type": "vmess",
+   "tag": "Total:1000G Used:0.54G § 0",
+   "server": "127.0.0.1",
+   "server_port": 8080,
+   "uuid": "88697e2c-ea17-403d-a4f3-dcf2c602b8f5",
+   "security": "auto",
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vmess",
+   "tag": "Expire:2026-05-17 § 1",
+   "server": "127.0.0.1",
+   "server_port": 8080,
+   "uuid": "88697e2c-ea17-403d-a4f3-dcf2c602b8f5",
+   "security": "auto",
+   "authenticated_length": true,
+   "packet_encoding": "xudp"
+  },
+  {
+   "type": "vless",
+   "tag": "🇩🇪 germany § 2",
+   "server": "213.171.12.159",
+   "server_port": 2053,
+   "uuid": "b7060293-ff36-401d-9aa6-e9989682e7db",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "777ro.ru",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "httpupgrade",
+    "path": "/xmplus",
+    "headers": {
+     "Host": "777ro.ru"
+    },
+    "early_data_header_name": null
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "🇺🇸 amerika § 3",
+   "server": "104.18.9.70",
+   "server_port": 2053,
+   "uuid": "b7060293-ff36-401d-9aa6-e9989682e7db",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "777ro.ru",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "httpupgrade",
+    "path": "/xmplus",
+    "headers": {
+     "Host": "777ro.ru"
+    },
+    "early_data_header_name": null
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "🇩🇪 germany § 4",
+   "server": "213.171.12.159",
+   "server_port": 2053,
+   "uuid": "b7060293-ff36-401d-9aa6-e9989682e7db",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "goropop4.ru",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "httpupgrade",
+    "path": "/xmplus",
+    "headers": {
+     "Host": "goropop4.ru"
+    },
+    "early_data_header_name": null
+   }
+  }
+ ]
+}

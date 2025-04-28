@@ -1,1 +1,1 @@
-Invalid Token
+InvalidToken

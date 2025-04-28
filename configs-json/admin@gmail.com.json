@@ -29,7 +29,7 @@
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "777ro.ru",
+    "server_name": "goropop4.ru",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
@@ -39,7 +39,7 @@
     "type": "httpupgrade",
     "path": "/xmplus",
     "headers": {
-     "Host": "777ro.ru"
+     "Host": "goropop4.ru"
     },
     "early_data_header_name": null
    }
@@ -47,13 +47,13 @@
   {
    "type": "vless",
    "tag": "🇺🇸 amerika § 3",
-   "server": "104.18.9.70",
+   "server": "172.67.75.8",
    "server_port": 2053,
    "uuid": "b7060293-ff36-401d-9aa6-e9989682e7db",
    "packet_encoding": "xudp",
    "tls": {
     "enabled": true,
-    "server_name": "777ro.ru",
+    "server_name": "goropop4.ru",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
@@ -63,14 +63,102 @@
     "type": "httpupgrade",
     "path": "/xmplus",
     "headers": {
-     "Host": "777ro.ru"
+     "Host": "goropop4.ru"
     },
     "early_data_header_name": null
    }
   },
   {
    "type": "vless",
-   "tag": "🇩🇪 germany § 4",
+   "tag": "🇺🇸 amerika § 4",
+   "server": "162.159.140.167",
+   "server_port": 2053,
+   "uuid": "b7060293-ff36-401d-9aa6-e9989682e7db",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "goropop4.ru",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "httpupgrade",
+    "path": "/xmplus",
+    "headers": {
+     "Host": "goropop4.ru"
+    },
+    "early_data_header_name": null
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "🇺🇸 amerika § 5",
+   "server": "104.18.9.70",
+   "server_port": 2053,
+   "uuid": "b7060293-ff36-401d-9aa6-e9989682e7db",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "goropop4.ru",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "httpupgrade",
+    "path": "/xmplus",
+    "headers": {
+     "Host": "goropop4.ru"
+    },
+    "early_data_header_name": null
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "🇺🇸 amerika § 6",
+   "server": "104.17.102.182",
+   "server_port": 2053,
+   "uuid": "b7060293-ff36-401d-9aa6-e9989682e7db",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "goropop4.ru",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "httpupgrade",
+    "path": "/xmplus",
+    "headers": {
+     "Host": "goropop4.ru"
+    },
+    "early_data_header_name": null
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "🇩🇪 § 7",
+   "server": "151.101.194.217",
+   "server_port": 443,
+   "uuid": "b7060293-ff36-401d-9aa6-e9989682e7db",
+   "packet_encoding": "xudp",
+   "tls": {
+    "enabled": true,
+    "server_name": "SHARAWOZ.global.ssl.fastly.net",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "🇩🇪 germany § 8",
    "server": "213.171.12.159",
    "server_port": 2053,
    "uuid": "b7060293-ff36-401d-9aa6-e9989682e7db",
